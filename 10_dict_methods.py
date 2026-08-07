@@ -1,5 +1,5 @@
 d1={}
-d1[29]=200#syntax to modify a value or add keu-value to dict.
+d1[29]=200#syntax to modify a value or add key-value to dict.
 d1[70]=56
 print(d1)
 
@@ -20,7 +20,7 @@ print(d1)
 #it returns the value for the key,
 #if the key is not present it returns None.
 print(d1.get(70))
-#print(d1.get(708))#prints None
+print(d1.get(708))#prints None
 
 #4]ref.pop(key)
 #it removes the item and returns the value
@@ -33,7 +33,8 @@ print(d1)
 #5]ref.popitem()
 #it does not take any parameter.
 #It is going to returns and remove the last item from the dictionary
-d1.popitem()
+s=d1.popitem()
+print(s)
 print(d1)
 #d3={}
 #d3.popitem()#KeyError: 'popitem(): dictionary is empty'

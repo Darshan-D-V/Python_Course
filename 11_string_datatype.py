@@ -12,3 +12,4 @@ print(s)
 print(s[2])
 #s[0]="z"#TypeError: 'str' object does not support item assignment
 #print(s)
+
