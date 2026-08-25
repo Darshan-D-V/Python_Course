@@ -5,6 +5,8 @@ a=20#Re-initialisation
 print(a)
 a=30#Re-initialisation
 print(a)
+a=40#Re-initialisation
+print(a)
 
 #single line comment
 d=10#initialisation
